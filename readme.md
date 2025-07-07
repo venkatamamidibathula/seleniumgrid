@@ -22,7 +22,9 @@ This documentation provides step-by-step instructions for setting up Selenium Gr
 
 #### Step 1: Install Java JDK 17
 
-Follow the steps of the `win_openjdk17` ansible role to install OpenJDK 17.
+**Download the below zip and unzip. Place it C:/Program Files directory**
+
+https://corretto.aws/downloads/latest/amazon-corretto-17-x64-windows-jdk.zip
 
 #### Step 2: Download Selenium Server
 
