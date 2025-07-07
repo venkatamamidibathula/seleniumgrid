@@ -226,7 +226,10 @@ D:\devops\selenium\
 C:\driver\chromedriver-win64\chromedriver-win64\
 └── chromedriver.exe
 ```
-After successful setup you will see a page when you hit the hub url.
+We can configure a NGINX webserver to proxy requests back to hub server on port 4444 using https.
+**nginx.conf** is placed for more clarifications in repo.
+
+After successful setup you will see a page when you hit the url https://cmseleniumprd.molsof.com or the hub url directcly http://rdpwvcdo300.molsof.com:4444.
 
 ![Seleniumhub](SeleniumHub.png)
 
